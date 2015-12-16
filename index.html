@@ -197,7 +197,7 @@ info.onAdd = function (map) {
 
 info.update = function (props) {
     this._div.innerHTML = '<h4>Tree Cover Estimates</h4>' +  (props ?
-        '<b style="font-size:19px;">' + props.NAME_1 + '</b><br/>Geographical Area - <b>' + props.ga + " km<sup>2</sup></b><br> Tree Cover Area - <b>" + props.ta+ " km<sup>2</sup></b><br>"+ " Percentage Cover - <b>" +props.percent+"%</b>"
+        '<b style="font-size:19px;">' + props.NAME_1 + '</b><br/><br>Geographical Area - <b>' + props.ga + " km<sup>2</sup></b><br> Tree Cover Area - <b>" + props.ta+ " km<sup>2</sup></b><br>"+ " Percentage Cover - <b>" +props.percent+"%</b>"
         : 'Hover over a state');
 };
 
